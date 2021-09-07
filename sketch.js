@@ -18,8 +18,8 @@ function setup() {
   width = 500;
   rows = [
     new Row(            0, 1,    0,         width,   0,   0, true),
-    new Row(    grid_size, 1, -3.0,       3*width, 300,   5, true),
-    new Row(2 * grid_size, 2, 10.5, 4 * grid_size, 400,  10, true),
+    new Row(    grid_size, 5, -3.0,     grid_size, 300,   5, true),
+    new Row(2 * grid_size, 2,  0.5, 4 * grid_size, 400,  10, true),
     new Row(3 * grid_size, 3, -1.3, 2 * grid_size, 200,  30, true),
     new Row(4 * grid_size, 2,  2.3, 3 * grid_size, 250,  25, true),
     new Row(5 * grid_size, 1,    0,         width,   0,   0, true),
